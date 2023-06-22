@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DESTINATARIO="PracticaLinuxCorreo1@gmail.com"
+ASUNTO="Programa de Trabajo"
+CONTENIDO="Aquí va el contenido del programa de trabajo."
+
+echo "$CONTENIDO" | mail -s "$ASUNTO" "$DESTINATARIO"

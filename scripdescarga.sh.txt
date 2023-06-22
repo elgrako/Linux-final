@@ -1,0 +1,4 @@
+script --> #!/bin/bash
+URL="https://aulavirtual.elcampico.org/pluginfile.php/25856/mod_resource/content/0/EjerciciosShell.pdf"
+DESTINO="/root/b.txt"
+wget -O "$DESTINO" "$URL"
